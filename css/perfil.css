@@ -1,0 +1,339 @@
+*{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;    
+}
+
+body{
+    background-color: #EFFB41;
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    padding: 0.25%;
+    background-color: #0598CC;    
+}
+
+nav{    
+    padding: 0.5%; 
+    background-color: #000000;
+    padding: 2%;
+    position: fixed;
+    top: 0px;
+    width: 100%;    
+    opacity: 0.8;
+}
+
+nav a{
+    margin: 1%;
+    display: inline;
+    padding: 2%;    
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 100%;
+    opacity: 0.8;
+}
+
+nav a:hover{
+    color: #000000;
+    background-color: white;
+}
+
+header{
+    background-image: url("http://androcode.es/wp-content/uploads/2015/02/materialdesign_introduction_shk3ov.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    margin-top: 4%;
+}
+
+header h1, h2{
+    padding: 2%;    
+    display: block;
+    text-shadow: 2px 2px gray;    
+}
+
+header h1{
+    color: #EFFB41;    
+}
+
+header h2{
+    color: #00BCD4;    
+}
+
+header img{
+    border-radius: 50%;
+    width: 15%;
+    margin: 2%;
+    padding: 2%;
+}
+
+@media screen and (max-width: 600px) {    
+    nav a{
+        font-size: 70%;
+    }    
+}
+
+@media screen and (max-width: 540px) {
+    header h1 {        
+        padding-top: 20%;
+    }
+    nav a {        
+        font-size: 60%;
+    }    
+}
+
+@media screen and (max-width: 390px) {    
+    nav a{
+        font-size: 50%;
+    }    
+}
+
+@media screen and (max-width: 300px) {
+    header h1 {        
+        padding-top: 60%;
+    }    
+    nav a{
+        font-size: 40%;
+    }    
+}
+
+@media screen and (max-width: 260px) {
+    nav a{
+        font-size: 30%;
+    }    
+}
+
+@media screen and (max-width: 220px) {
+    nav a{
+        font-size: 20%;
+    }    
+}
+
+article{
+    padding: 6%;
+}
+
+article h3{
+    text-shadow: 2px 2px gray;
+}
+
+article h2{
+    padding: 1%;
+    vertical-align: top;    
+}   
+
+article img{
+    width: 15%;
+    display: inline;    
+}
+
+article img:hover{
+    opacity: 0.7;
+}
+
+article input{
+    padding: 1.3%;
+    margin: 1.8%;    
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    display: inline;
+    width: 1px;
+    text-decoration:none;
+    text-align: center;
+    height: 0;
+}
+
+article input:hover{
+    opacity: 0.4;
+}
+
+#acerca input{
+    background-color: #3BB8FF;
+}
+
+#acerca{
+    background-color: #3BB8FF;
+    padding: 3%;
+}
+
+#acerca h2{
+    color: white;
+}
+
+#acerca img{
+    width: 25%;
+    opacity: 1;
+}
+
+#tecnologias{
+    background-image: url("http://assets.manualcreative.com/wp-content/uploads/2014/09/Google_Material-Design_4-srgb-2998x1998.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#tecnologias img{    
+    padding: 1%;
+    margin: 1%;
+}
+
+#tecnologias h3{
+    text-shadow: 2px 2px gray;
+}
+
+#consultoria{
+    background-color: #3691A5;
+    padding: 3%;
+}
+
+#consultoria h2{
+    color: white;
+}
+
+#consultoria img{
+    width: 30%;
+    opacity: 1;
+}
+
+#consultoria a{
+    text-decoration: underline;
+    text-shadow: 2px 2px gray;
+}
+
+#consultoria input{
+    background-color: #3691A5;
+}
+
+#negocio{
+    background-image: url("http://www.lirent.net/wp-content/uploads/2014/10/Android-Lollipop-wallpapers-p-800x500.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#negocio a{        
+    margin: 1.5%;
+    padding: 2%;
+    background: #15294E;
+    border-radius: 40px;    
+    display: inline-block;
+    cursor: pointer;
+    font-size: 110%;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+}
+
+#negocio a:hover{
+    color: #15294E;
+    background-color: white;
+    text-shadow: 0px 0px 0px black;
+}
+
+@media screen and (min-width: 580px) {    
+    #negocio input{        
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 180px) {    
+    #negocio input{        
+        width: 30%;
+    }
+}
+
+#frase{
+    background-color: #E18034;
+}
+
+#frase h4{
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    padding: 2%;
+}
+
+#frase img{
+    padding: 0%;
+    margin: 0%;    
+}
+
+#frase img:hover{
+    opacity: 1;    
+}
+
+#experiencia{
+    background-image: url("../img/4.jpg");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+#experiencia img{
+    padding: 1%;
+    margin: 1%;
+}
+
+#experiencia h3{
+    text-shadow: 2px 2px gray;
+}
+
+footer{
+    color: white;
+    background-color: #000000;
+    padding: 1%;
+    font-weight: bold;
+}
+
+footer i.medium{
+    font-size: 4vw;
+    padding: 2%;
+}
+
+footer i.medium:hover{
+    color: black;
+    background-color: white;
+}
+
+footer img{
+    width: 5%;
+    display: inline;
+    padding: 2%
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+}
+
+footer p:hover{
+    opacity: 0.2;
+}
+
+.android{
+    width: 17%;
+    padding: 0%;
+    margin: 0%;
+}
+
+@keyframes rocket{
+ 0% {transform: rotate(50deg);}
+ 25% {transform: rotate(-50deg);}
+ 50% {transform: rotate(50deg);}
+ 75% {transform: rotate(-50deg);}
+ 100% {transform: rotate(50deg);}
+}
